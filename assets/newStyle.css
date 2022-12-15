@@ -184,28 +184,46 @@ header {
   background-image: url(../img/blurry-gradient-haikei.png);
   background-attachment: fixed;
   gap: 2em;
-  padding: 3rem;
+  padding: 8.5rem;
   background-size: cover;
-}
-
-.content-b li {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  width: 30%;
 }
 
 .card {
   display: flex;
-  width: 13rem;
-  height: 13rem;
+  justify-content: center;
+  flex-direction: column;
+  width: 17rem;
+  height: 17rem;
+}
+
+li {
+  list-style-type: none;
 }
 
 .card-title {
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.card-title p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding: 2em;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  padding: 2em 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 ul {
