@@ -156,10 +156,20 @@ header {
   color: #fff;
 }
 
+.read-more:hover {
+  background: #fff;
+  border: 2px solid rgb(23, 18, 128);
+}
+
+.read-more:hover a {
+  color: rgb(23, 18, 128);
+}
+
 .content-a {
   display: flex;
   background-color: #fff;
   padding: 7em 4.5em;
+  margin-bottom: 10px;
 }
 
 .about {
@@ -217,7 +227,7 @@ header {
   margin: 0;
 }
 
-h3 {
+.card-title h3 {
   padding: 2em 0px 0px;
   display: flex;
   align-items: center;
@@ -226,6 +236,7 @@ h3 {
 }
 
 ul {
+  line-height: 1;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -283,4 +294,38 @@ li {
     rgba(33, 82, 179, 1) 83%
   );
   transition: 0.2s;
+}
+
+.section-c {
+  background-color: #fff;
+  padding: 4em;
+}
+
+.section-c-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0em 0px 1em;
+}
+
+.section-blocos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5em;
+  border: 1px solid black;
+}
+
+.bloco h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.bloco img {
+  width: 8rem;
+  height: 8rem;
 }
