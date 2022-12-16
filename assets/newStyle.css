@@ -212,6 +212,7 @@ header {
 .card-title {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
@@ -311,21 +312,34 @@ li {
 
 .section-blocos {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 5em;
-  border: 1px solid black;
+  width: 100%;
+  margin: 1em;
 }
 
-.bloco h4 {
+.bloco {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  border: 1px solid black;
+  margin: 0 10rem 0 5rem;
+  justify-content: space-between;
 }
 
-.bloco img {
-  width: 8rem;
-  height: 8rem;
+.content-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.content-d h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-d img {
+  align-items: center;
+  display: flex;
+  width: 8.5em;
+  height: 8.5em;
 }
