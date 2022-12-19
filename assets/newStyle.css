@@ -309,6 +309,7 @@ li {
   justify-content: center;
   flex-direction: column;
   padding: 0em 0px 0.7em;
+  margin-bottom: 2em;
 }
 
 .section-blocos {
@@ -344,21 +345,20 @@ li {
 .content-d img {
   align-items: center;
   display: flex;
-  width: 8em;
-  height: 8em;
+  width: 7.5em;
+  height: 7.5em;
 }
 
 .container {
-  gap: 5px;
   display: grid;
   grid-template-areas:
     "title4 title4 title4  title4 title4  "
-    "contact-us contact-us  about-our about-our about-our"
-    "footer footer footer footer  footer ";
+    "contact-us contact-us  about-our about-our about-our";
 }
 
 .container div {
-  padding: 20px;
+  padding: 20px 4em;
+  height: 45vh;
 }
 
 #title4 {
@@ -373,29 +373,27 @@ li {
   grid-area: about-our;
 }
 
-#footer {
-  grid-area: footer;
-}
-
 .boxtitle h3 {
   margin-top: 45px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
   color: #fff;
 }
 
 .boxtitle p {
-  padding: 2em;
-  font-size: 1.2em;
+  padding: 1.5em;
+  font-size: 1.3em;
   color: #fff;
 }
 
 .boxtitle {
-  background-color: #333;
+  background-color: #4c1d95;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  padding: 1em 10em;
 }
 
 .boxfim {
@@ -404,7 +402,6 @@ li {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: aqua;
 }
 
 .boxfim h3 {
@@ -414,14 +411,41 @@ li {
 
 .boxfim p {
   padding: 0px 1em;
+  font-size: 1.1em;
+}
+
+.about-our {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.about-our h2 {
+  margin-top: 1em;
+}
+.about-our p {
+  padding: 0px 1em;
   margin: 20px;
   font-size: 1.1em;
 }
 
-.footer {
+footer {
+  padding: 2em;
   background-color: black;
+}
+
+footer div {
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 1.1em;
+}
+
+footer div a {
+  text-decoration: none;
+  color: aqua;
 }

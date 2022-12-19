@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/newStyle.css" />
-    <title>landing Page</title>
+    <title>Landing Page</title>
   </head>
   <body>
     <header>
@@ -16,9 +16,11 @@
         <div class="nav-list">
           <ul>
             <li class="nav-item"><a href="" class="nav-link">Produtos</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
             <li class="nav-item">
-              <a href="" class="nav-link">Como Funciona?</a>
+              <a href="#contatos" class="nav-link">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#diferencial" class="nav-link">Diferencial</a>
             </li>
             <li class="nav-item"><a href="" class="nav-link">Numeros</a></li>
           </ul>
@@ -35,7 +37,7 @@
       <div class="image">
         <div>
           <div>
-            <h1 class="title">Welcome to Acme Web Solutions</h1>
+            <h1 class="title">Bem-vindo à Acme Web Solutions</h1>
           </div>
           <div>
             <p class="text1">
@@ -46,7 +48,7 @@
           </div>
           <div class="read-adjustment">
             <button class="read-more">
-              <a href="#readmore">Read More</a>
+              <a href="#readmore">Veja Mais!</a>
             </button>
           </div>
         </div>
@@ -54,7 +56,7 @@
       <section class="content-a">
         <div class="about">
           <div>
-            <h2>Web & Application Development</h2>
+            <h2>Desenvolvimento de aplicativos e Web</h2>
           </div>
           <div>
             <p>
@@ -73,7 +75,7 @@
               <div class="card">
                 <img src="./img/pexels-olia-danilevich-4974912.jpg" alt="" />
                 <div class="card-title">
-                  <h3>Web Development</h3>
+                  <h3>Desenvolvimento Web</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nostrum culpa neque quo eum et quasi velit voluptatum cum
@@ -91,7 +93,7 @@
               <div class="card">
                 <img src="./img/pexels-christina-morillo-1181244.jpg" alt="" />
                 <div class="card-title">
-                  <h3>Mobile Applications</h3>
+                  <h3>Aplicações Móveis</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nostrum culpa neque quo eum et quasi velit voluptatum cum
@@ -109,7 +111,7 @@
               <div class="card">
                 <img src="./img/pexels-pixabay-265087.jpg" alt="" />
                 <div class="card-title">
-                  <h3>Tech Marketing</h3>
+                  <h3>Marketing de Tecnologia</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nostrum culpa neque quo eum et quasi velit voluptatum cum
@@ -126,9 +128,9 @@
       </section>
       <section>
         <div class="section-c">
-          <div class="section-c-title">
-            <span>FUNCTIONALITIES</span>
-            <h1>OUR DIFFERENTIAL</h1>
+          <div id="diferencial" class="section-c-title">
+            <span>FUNCIONALIDADES</span>
+            <h1>NOSSO DIFERENCIAL</h1>
           </div>
           <div class="section-blocos">
             <div class="bloco">
@@ -196,17 +198,19 @@
         </div>
       </section>
       <section>
+        <div class="boxtitle" id="title4">
+          <h3>Nós lidamos com todas as suas necessidades digitais</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+            rerum vel earum error fugiat cupiditate, dolore eius! Minus,
+            explicabo.
+          </p>
+        </div>
+      </section>
+      <section>
         <div class="container" id="template-areas">
-          <div class="boxtitle" id="title4">
-            <h3>We handle all of your digital needs</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              nam rerum vel earum error fugiat cupiditate, dolore eius! Minus,
-              explicabo.
-            </p>
-          </div>
           <div class="boxfim" id="contact-us">
-            <h3>Contact-us</h3>
+            <h3 id="contatos">Contate-Nos</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
               suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde
@@ -214,8 +218,8 @@
             </p>
             <p>contact@acmewebsolutions.test</p>
           </div>
-          <div class="boxfim" id="about-our">
-            <h2>About Our Company</h2>
+          <div class="about-our" id="about-our">
+            <h2>Sobre a nossa empresa</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio earum porro deserunt, deleniti, quae facere
@@ -223,11 +227,17 @@
               Soluta excepturi in aut suscipit amet temporibus quo?
             </p>
           </div>
-          <div class="footer" id="footer">
-            <h3>fim ?</h3>
-          </div>
         </div>
       </section>
+      <footer>
+        <div>
+          <div>Acme Web Solutions</div>
+          <div>
+            <p>Project By</p>
+            <a href="#">&nbsp;&nbsp;euzinho? </a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
