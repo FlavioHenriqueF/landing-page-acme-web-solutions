@@ -316,13 +316,13 @@ li {
   display: flex;
   width: 100%;
   margin: 1em;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .bloco {
   display: flex;
   margin: 0 10rem 0 5rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .content-d {
@@ -330,7 +330,7 @@ li {
   flex-direction: column;
   width: 10rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 0.5rem;
 }
 
