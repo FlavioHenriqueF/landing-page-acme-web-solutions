@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER - NAVEGAÇÃO */
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-bar h1 {
+  font-weight: bold;
+}
+
+.nav-bar ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+/* SAIBA - MAIS */
+
+.read-more {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8em;
+}
+
+.read-more img {
+  width: 20em;
+}
+
+.read-more h1 {
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  color: #0c1a34;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.read-more p {
+  margin-top: 10px;
+  color: #6b7077;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.read-more button {
+  width: 120px;
+  height: 47px;
+  margin-top: 20px;
+  margin-bottom: 10em;
+  background: #c42d7f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  transition: filter 0.4s;
+}
+
+.read-more button:hover {
+  filter: brightness(0.9);
+}
+
+/* FUNCIONALIDADES */
+
+.wave-1 {
+  margin-bottom: -5px;
+}
+
+.mais-info {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  background: #0c1a34;
+  padding: 1em;
+}
+
+.mais-info img {
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  color: #fff;
+}
+
+.mais-info li {
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 100px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* apoiadores */
+
+.persons {
+  display: flex;
+  padding: 5em 10em;
+  background: #dddbdd;
+  align-items: center;
+}
+
+.person {
+  display: flex;
+  width: 50%;
+}
+
+.person img {
+  width: 10em;
+  border-radius: 50%;
+}
+
+.person blockquote p {
+  margin-top: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.person blockquote cite {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 2em;
+  color: red;
+}
+
+/* ORÇAMENTO */
+
+.initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12em;
+  margin-bottom: 10em;
+}
+
+.initial div {
+  margin-left: 1.5em;
+}
+
+.initial h1 {
+  color: #0c1a34;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.initial button {
+  width: 180px;
+  height: 43px;
+  background: #199f1b;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.initial button a {
+  color: #fff;
+  text-decoration: none;
+  transition: filter 0.4s;
+  font-size: 1.08em;
+}
+
+.initial button:hover {
+  filter: brightness(0.9);
+}
+
+.wave {
+  margin-bottom: -5px;
+}
+
+footer {
+  background-color: #0c1a34;
+}
+.nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 0 5em;
+  color: #fff;
+}
+
+.nav-footer h1 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.nav-footer p {
+  color: #424a57;
+  font-weight: bold;
+}
+
+.nav-footer ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
